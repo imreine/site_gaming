@@ -19,15 +19,20 @@
     <main>
         <h3>Inscription</h3>
         <div>
-            <form action="index.php" method="post">
-                <label for="email">Email :</label>
-                <input type="email" required>
-                <label for="pseudo">Pseudo :</label>
-                <input type="text" required>
-                <label for="password">Mot de passe :</label>
-                <input type="password" required>
-                <button type="submit">S'inscrire</button>
-            </form>
+            <form action="index.php" method="POST">
+
+    <label>Email :</label>
+    <input type="email" name="email" required>
+
+    <label>Pseudo :</label>
+    <input type="text" name="pseudo" required>
+
+    <label>Mot de passe :</label>
+    <input type="password" name="password" required>
+
+    <button type="submit">S'inscrire</button>
+
+</form>
         </div>
     </main>
 
