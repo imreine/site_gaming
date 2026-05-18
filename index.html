@@ -19,19 +19,25 @@
     <main>
         <h3>Connexion</h3>
         <div>
-            <form action="log.php" method="post"> 
-                <label for="email">Email :</label>
-                <input type="email" required>
-                <label for="pseudo">Pseudo :</label>
-                <input type="text" required>
-                <label for="password">Mot de passe :</label>
-                <input type="password" required>
-                <label for="rappel">
-                    <input type="checkbox" name="rappel"> Se souvenir de moi
-                </label>
-                <button type="submit">Se connecter</button>
-                <a href="ins.html">Mot de passe oublié </a>
-            </form>
+            <form action="log.php" method="POST">
+
+    <label>Email :</label>
+    <input type="email" name="email" required>
+
+    <label>Pseudo :</label>
+    <input type="text" name="pseudo" required>
+
+    <label>Mot de passe :</label>
+    <input type="password" name="password" required>
+
+    <label>
+        <input type="checkbox" name="rappel">
+        Se souvenir de moi
+    </label>
+
+    <button type="submit">Se connecter</button>
+
+</form>
         </div>
     </main>
 
